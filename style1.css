@@ -10,7 +10,7 @@ body{
     background-color: #264653;
     color:white;
     width:100vw;
-    height: 35px;
+    height: 45px;
     display:flex;
     flex-direction: row-reverse;
      
@@ -363,6 +363,11 @@ a{
     padding:20px;
     ;
 }
+.story-div{
+    display:flex;
+    flex-direction: row;
+     gap:20px;
+}
 .story-image1{
     margin-left:100px;
     z-index: 2;
@@ -392,6 +397,11 @@ a{
     font-size: 22px;
     font-weight: bolder;
     max-width: 50px;
+}
+
+.build{
+    color:white;
+    height: 50px;
 }
 .staff2{
     margin-bottom:40px;
